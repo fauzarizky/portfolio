@@ -179,6 +179,20 @@ img,
 }
 /* End of Section porto */
 
+/* Footer */
+footer {
+  height: 50px;
+  margin: 0;
+  background-color: #272343;
+  color: #4a427c;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+/* End Of Footer */
+
 @media screen and (min-width: 300px) and (max-width: 767px) {
   .jumbotron {
     height: 100vh;
