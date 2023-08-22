@@ -315,3 +315,12 @@ img,
   }
 }
 
+@media screen and (min-width: 901px){
+  
+  .about .description {
+    margin-left: 30px;
+  }
+  .porto .container-result {
+    justify-content: center;
+  }
+}
