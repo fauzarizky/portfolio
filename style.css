@@ -53,7 +53,7 @@ nav img {
 }
 
 .jumbotron .content button {
-  width: 90px;
+  width: 100px;
   height: 40px;
   border: 2px solid #272343;
   font-size: medium;
@@ -80,6 +80,10 @@ nav img {
 /* End OfJumbotron */
 
 /* Section About */
+.about {
+  min-height: 100vh;
+}
+
 .about h1 {
   font-size: 5rem;
   text-align: center;
@@ -175,7 +179,7 @@ img,
 }
 /* End of Section porto */
 
-@media screen and (min-width: 400px) and (max-width: 767px) {
+@media screen and (min-width: 300px) and (max-width: 767px) {
   .jumbotron {
     height: 100vh;
   }
@@ -229,6 +233,12 @@ img,
   .porto .container-result {
     flex-direction: column;
   }
+
+  .porto .container-result .result {
+    margin: 10px;
+    height: 190px;
+    width: 240px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 900px) {
@@ -253,10 +263,6 @@ img,
     width: 30%;
     height: 60%;
     border-radius: 40%;
-  }
-
-  .about {
-    height: 100vh;
   }
 
   .about h1 {
@@ -284,6 +290,9 @@ img,
     margin-right: 10px;
   }
 
+  .porto {
+    min-height: 100vh;
+  }
 
   .porto .title h1 {
     font-size: 4rem;
