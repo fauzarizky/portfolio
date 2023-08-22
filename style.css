@@ -262,6 +262,10 @@ footer p a:hover {
     height: 190px;
     width: 240px;
   }
+
+  footer p {
+    font-size: 0.6rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 900px) {
@@ -336,6 +340,10 @@ footer p a:hover {
     height: 190px;
     width: 240px;
   }
+
+  footer p {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (min-width: 901px){
@@ -346,4 +354,9 @@ footer p a:hover {
   .porto .container-result {
     justify-content: center;
   }
+
+  footer p {
+    font-size: 1rem;
+  }
+  
 }
